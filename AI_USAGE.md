@@ -22,7 +22,9 @@ Dùng AI để phân tích giao diện, đề xuất bố cục, định hướn
 
 ## 3. Prompt đã sử dụng
 
-**Prompt 1 (Gemini):**
+**Prompt 2 (Gemini → GitHub Copilot):**
+
+```
 @workspace Hãy đóng vai Senior Frontend Developer chuyên về UI/UX thương mại điện tử. Tạo giao diện trang chi tiết sản phẩm "Màu vẽ trang trí FolkArt Multi-surface, màu lẻ" cho cửa hàng họa cụ Taipoz (Việt Nam) bằng HTML5 thuần, CSS3 thuần (tách file `styles.css`) và Vanilla JavaScript (tách file `script.js` hoặc nhúng gọn cuối trang).
 
 ### RÀNG BUỘC KỸ THUẬT BẮT BUỘC:
@@ -69,7 +71,7 @@ Dùng AI để phân tích giao diện, đề xuất bố cục, định hướn
   - **Mobile (`< 768px`)**: Chuyển sang 1 cột dọc; lưới ô màu giới hạn chiều cao (`max-height: 165px; overflow-y: auto;`) để không đẩy nút mua hàng xuống quá sâu. Thêm thanh mua hàng cố định ở cạnh dưới màn hình (`position: fixed; bottom: 0; left: 0; right: 0;`) chứa giá hiện tại và nút "Thêm vào giỏ" để thao tác một tay.
 
 Hãy tạo đầy đủ mã nguồn cho các file trên, đảm bảo chạy mượt mà ngay khi mở `index.html` trên trình duyệt.
-
+```
 
 **Prompt 2 (Gemini → GitHub Copilot):**
 
@@ -90,6 +92,7 @@ Hãy tạo đầy đủ mã nguồn cho các file trên, đảm bảo chạy mư
 ```
 
 **Prompt 4 (Claude):**
+```
 Bạn là chuyên gia phân tích nghiệp vụ và thiết kế trải nghiệm người dùng
 cho website thương mại điện tử.
 Tôi đang khảo sát website: https://www.taipoz.com/
@@ -112,8 +115,6 @@ Với mỗi khu vực, hãy nêu:
 - Một đề xuất cải tiến.
 Không khẳng định những tính năng chưa được kiểm chứng.
 Phân biệt rõ nhận xét dựa trên quan sát và đề xuất của AI.
-```
-[Dán prompt phân tích website tham khảo / gợi ý bố cục thẻ ở đây]
 ```
 
 ## 4. Kết quả AI đề xuất
