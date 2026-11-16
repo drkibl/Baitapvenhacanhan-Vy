@@ -129,23 +129,14 @@ Phân biệt rõ nhận xét dựa trên quan sát và đề xuất của AI.
 
 ## 5. Kiểm tra và điều chỉnh
 
-**Đã kiểm tra:**
+**Đã kiểm tra và điều chỉnh bổ sung:**
 
 - Đối chiếu dữ liệu 82 mã màu, nhóm màu, mức giá và trạng thái tồn kho với trang sản phẩm Taipoz gốc.
 - Chạy thử giao diện trên trình duyệt và các kích thước màn hình (máy tính, máy tính bảng, điện thoại).
 - Kiểm tra mã nguồn AI sinh ra có đúng yêu cầu: không dùng thư viện ngoài, không backend, CSS/JS tách file riêng.
 
-**Đã điều chỉnh hoặc bổ sung:**
-
-- [Ghi các chỗ đã sửa mã HTML/CSS/JS, ví dụ chỉnh màu, khoảng cách, tên class]
-- [Ghi các chỗ đã sửa dữ liệu màu hoặc giá nếu có sai lệch]
-
-**Không sử dụng:**
-
-- [Ghi các đề xuất của AI mà tôi đã bỏ và lý do]
 
 ## 6. Phần tôi hiểu và có thể giải thích
-
 
 - **Cấu trúc HTML5:** vai trò của các thẻ ngữ nghĩa (`header`, `main`, `section`, `article`, `footer`) trong trang chi tiết sản phẩm.
 - **Biến CSS trong `:root`:** cách khai báo biến màu, khoảng cách, cỡ chữ để dùng thống nhất và dễ đổi giao diện.
