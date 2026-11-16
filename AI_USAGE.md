@@ -1,3 +1,5 @@
+AI Usage Log
+
 1. Công cụ AI
 Tên công cụ: Gemini và Claude
 2. Mục đích sử dụng
